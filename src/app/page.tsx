@@ -16,6 +16,7 @@ export default function HomePage() {
         {[...mockImages, ...mockImages, ...mockImages].map((image) => (
           <div key={image.id} className="w-48">
             <img src={image.url} />
+            New
           </div>
         ))}
       </div>
